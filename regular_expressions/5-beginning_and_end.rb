@@ -1,4 +1,4 @@
-i#!/usr/bin/env ruby
+#!/usr/bin/env ruby
 
 input_string = ARGV[0] # Obtain the first command-line argument
 
