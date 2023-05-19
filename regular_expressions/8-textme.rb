@@ -1,6 +1,2 @@
 #!/usr/bin/env ruby
-users = ARGV[0]
-
-users.scan(/\[(?:from:|to:|flags:)(.*?)\]/)
-result = users.join(",")
-puts result
+puts ARGV[0].scan(/\[(?:from:|to:|flags:)(.*?)\]/).join(",")
