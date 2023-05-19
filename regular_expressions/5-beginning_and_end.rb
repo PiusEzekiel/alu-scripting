@@ -2,5 +2,5 @@
 
 input_string = ARGV[0] # Obtain the first command-line argument
 
-matches = input_string.match(/^h.*n$/)
+matches = input_string.match(/^h.n$/)
 puts matches
